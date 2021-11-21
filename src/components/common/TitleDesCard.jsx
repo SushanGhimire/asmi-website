@@ -28,7 +28,7 @@ function TitleDesCard({ head, title, des }) {
         className="text-darkGray text-sm text-center md:text-left md:w-96"
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="600"
+        data-aos-delay="500"
       >
         {des}
       </p>
