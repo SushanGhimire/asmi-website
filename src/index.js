@@ -5,6 +5,8 @@ import { Provider } from "react-redux";
 import store from "./store";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/css/tailwind.css";
+import "./assets/css/style.css";
+import "aos/dist/aos.css";
 import App from "./App";
 
 store.subscribe(() => store.getState());

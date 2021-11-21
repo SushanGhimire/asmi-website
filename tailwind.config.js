@@ -7,13 +7,14 @@ module.exports = {
         100: "32rem",
       },
       colors: {
-        darkBlack: "#333333",
+        darkGray: "#333333",
         paragraph: "#7A818F",
         skyBlue: "#4BB4F7",
       },
       spacing: {
         100: "30rem",
         68: "17rem",
+        "7/10": "70%",
       },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
