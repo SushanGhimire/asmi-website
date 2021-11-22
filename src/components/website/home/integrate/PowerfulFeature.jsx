@@ -7,7 +7,7 @@ function PowerfulFeature() {
   return (
     <div className="max-width my-10">
       <div
-        className="text-3xl md:text-4xl text-darkGray font-black mb-5 tracking-wide"
+        className="text-3xl sm:text-4xl md:text-5xl text-darkGray font-black mb-5 tracking-wide"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="400"

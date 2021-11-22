@@ -37,12 +37,12 @@ function Experience() {
             THAT’S SHARP
           </header>
           <div
-            className="flex justify-center text-center"
+            className=""
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
           >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-manrope w-full max-w-xl text-center text-darkGray  leading-snug">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black font-manrope w-full max-w-3xl mx-auto text-center text-darkGray  leading-snug">
               We aim to provide a compelling Experience
             </h1>
           </div>
@@ -54,7 +54,7 @@ function Experience() {
           data-aos-delay="600"
         >
           <div className="flex-1">
-            <ul className="space-y-">
+            <ul className="space-y-1">
               {cards.map((data, index) => {
                 const { title, des } = data;
                 return (
@@ -72,7 +72,6 @@ function Experience() {
                   </li>
                 );
               })}
-              <li></li>
             </ul>
           </div>
           <div className="flex-1 mt-5 md:mt-0">
