@@ -4,6 +4,7 @@ import Feature from "./integrate/Feature";
 import Frontpage from "./integrate/Frontpage";
 import Hearing from "./integrate/Hearing";
 import Hearing2 from "./integrate/Hearing2";
+import Join from "./integrate/Join";
 import LatestBlogs from "./integrate/LatestBlogs";
 import OurBest from "./integrate/OurBest";
 import PowerfulFeature from "./integrate/PowerfulFeature";
@@ -19,6 +20,7 @@ function Home() {
       <Experience />
       <Hearing2 />
       <LatestBlogs />
+      <Join />
     </div>
   );
 }
