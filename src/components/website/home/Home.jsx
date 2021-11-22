@@ -1,4 +1,5 @@
 import React from "react";
+import Experience from "./integrate/Experience";
 import Feature from "./integrate/Feature";
 import Frontpage from "./integrate/Frontpage";
 import Hearing from "./integrate/Hearing";
@@ -13,6 +14,7 @@ function Home() {
       <OurBest />
       <PowerfulFeature />
       <Hearing />
+      <Experience />
     </div>
   );
 }

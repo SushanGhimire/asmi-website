@@ -33,12 +33,12 @@ function PowerfulFeature() {
             </div>
           </div>
           <div
-            className="grid sm:grid-cols-2 gap-6 p-5"
+            className="grid sm:grid-cols-2 gap-6 "
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="500"
           >
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
                 Saving Option
               </span>
@@ -47,9 +47,9 @@ function PowerfulFeature() {
                 facilisis volutpat.
               </span>
             </div>
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
-                Saving Option
+                Facial Recognition
               </span>
               <span className="text-sm text-paragraph">
                 Lorem ipsum dolor sit amet consectetur adipiscin eli a sit

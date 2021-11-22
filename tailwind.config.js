@@ -3,11 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      width: {
-        100: "32rem",
-      },
       colors: {
         darkGray: "#333333",
+        lightGray: "#F0F4FB",
         paragraph: "#7A818F",
         skyBlue: "#4BB4F7",
       },
