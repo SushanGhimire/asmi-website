@@ -4,19 +4,19 @@ import good from "../../../../assets/images/good.png";
 let cards = [
   {
     title: "Always Tuned",
-    des: "Quis auctor elit sed vulputate mi sit amet magnis dis parturien.",
+    des: "Never miss out on the opportunity to sell today’s hottest e-commerce.",
   },
   {
     title: "Privacy top-tier",
-    des: "Quis auctor elit sed vulputate mi sit amet magnis dis parturien.",
+    des: "Secure cloud ecosystem to protect your user’s data.",
   },
   {
     title: "Really, really Fast",
-    des: "Quis auctor elit sed vulputate mi sit amet magnis dis parturien.",
+    des: "Implement a few lines of a code and start running today.",
   },
   {
     title: "Advanced Technology",
-    des: "Quis auctor elit sed vulputate mi sit amet magnis dis parturien.",
+    des: "No heavy lift from your AI division, we solved the problem.",
   },
 ];
 function Experience() {
@@ -29,13 +29,13 @@ function Experience() {
       <div className="max-width">
         {/* head  */}
         <div className="">
-          <header
+          {/* <header
             className="text-paragraph text-light text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             THAT’S SHARP
-          </header>
+          </header> */}
           <div
             className=""
             data-aos="fade-up"

@@ -20,9 +20,9 @@ function Hearing() {
         </div>
         <div>
           <TitleDesCard
-            head="THAT’S COVERED"
-            title="That’s so good hearing this"
-            des="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            // head="THAT’S COVERED"
+            title="Instant Shoppable Content Using AI"
+            des="Content and e-commerce can efficiently reach tomorrow's target using today's futuristic technology."
           />
           <ul
             className="mt-4 space-y-3"
@@ -42,7 +42,7 @@ function Hearing() {
                 </svg>
               </span>
               <span className="text-light text-paragraph">
-                Mobile Optimization
+                Revenue Optimization
               </span>
             </li>
             <li className="flex items-center space-x-2">
@@ -57,7 +57,7 @@ function Hearing() {
                 </svg>
               </span>
               <span className="text-light text-paragraph">
-                Mobile Optimization
+                Fast Integration
               </span>
             </li>
             <li className="flex items-center space-x-2">
@@ -72,7 +72,7 @@ function Hearing() {
                 </svg>
               </span>
               <span className="text-light text-paragraph">
-                Mobile Optimization
+                Secure Encryption
               </span>
             </li>
           </ul>

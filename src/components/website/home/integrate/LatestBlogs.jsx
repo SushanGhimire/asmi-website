@@ -1,20 +1,22 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import b1 from "../../../../assets/images/b1.jpg";
-import b2 from "../../../../assets/images/b2.jpg";
+// import b1 from "../../../../assets/images/b1.jpg";
+// import b2 from "../../../../assets/images/b2.jpg";
 function LatestBlogs() {
   let card = [
     {
-      date: "August 30, 2021",
-      title: "How we improved team collaboration through high-fidelity mockups",
-      img: b1,
+      date: "May 20, 2021,04:04pm",
+      title: "Adapting E-Commerce Practices From The East To The West",
+      link: "https://www.forbes.com/sites/tomokoyokoi/2021/05/20/adapting-e-commerce-practices-from-the-east-to-the-west/?sh=6d575cf3edf2",
+      img: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60a6b9f8f60bae0680987aae%2FYoung-Asian-women-showing-clothes-and-sale-online-on-social-with-smartphone-to%2F960x0.jpg%3Ffit%3Dscale",
       aos: "fade-down",
     },
     {
-      date: "June 10, 2021",
+      date: "Jul 15, 2021,07:20am",
       title:
-        "Have a look inside our design department and evaluate our improvement",
-      img: b2,
+        "Entertainment Commerce Platforms Are Revolutionizing The Shopping Experience",
+      link: "https://www.forbes.com/sites/forbestechcouncil/2021/07/15/entertainment-commerce-platforms-are-revolutionizing-the-shopping-experience/?sh=1a8606e71c48",
+      img: "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f919dc211d63f1fe3ecbc2f%2FBlogger-live-streaming%2F960x0.jpg%3Ffit%3Dscale",
       aos: "fade-up",
     },
   ];
@@ -29,13 +31,16 @@ function LatestBlogs() {
         data-aos-duration="1000"
         data-aos-delay="400"
       >
-        Latest Blogs & News
+        Latest News
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-10 mt-5">
         {card.map((data, index) => {
-          const { date, title, img, aos } = data;
+          const { date, title, img, aos, link } = data;
           return (
-            <div
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
               className="h-96 rounded-xl relative overflow-hidden"
               key={index}
               data-aos={aos}
@@ -52,7 +57,7 @@ function LatestBlogs() {
                   {title}
                 </div>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>

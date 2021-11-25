@@ -4,7 +4,7 @@ import l1 from "../../../../assets/images/l1.svg";
 import l2 from "../../../../assets/images/l2.svg";
 import l3 from "../../../../assets/images/l3.svg";
 
-function Feature() {
+function Partners() {
   let feature = [l1, l2, l3];
   useEffect(() => {
     AOS.init();
@@ -14,7 +14,7 @@ function Feature() {
       <div className="flex-1 " data-aos="fade-up" data-aos-duration="1000">
         <div className="grid  md:grid-cols-4 gap-x-4 gap-y-6 place-content-center">
           <div className="flex items-center text-paragraph text-light text-center">
-            FEATURED ON
+            OUR PARTNERS
           </div>
           {feature.map((data, index) => {
             return (
@@ -29,4 +29,4 @@ function Feature() {
   );
 }
 
-export default Feature;
+export default Partners;

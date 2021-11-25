@@ -24,11 +24,11 @@ function PowerfulFeature() {
           <div className="gradient px-10 py-24 rounded-xl">
             <div className="text-white sm:w-64 space-y-3">
               <div className="text-2xl font-black tracking-wide text-center sm:text-left">
-                Starred Feature
+                ASMI Product Recommendation API
               </div>
               <p className="text-sm text-center sm:text-left">
-                Nothing the copy said could convince her and so it didn’t take
-                long.
+                Connecting 10M+ of products across e-commerce hubs to the
+                leading content platforms.
               </p>
             </div>
           </div>
@@ -40,20 +40,19 @@ function PowerfulFeature() {
           >
             <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
-                Saving Option
+                Fastest Integration
               </span>
               <span className="text-sm text-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipiscin eli a sit
-                facilisis volutpat.
+                Few lines of code and any content platform starts selling
+                products from around the world.
               </span>
             </div>
             <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
-                Facial Recognition
+                The Best AI Tools
               </span>
               <span className="text-sm text-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipiscin eli a sit
-                facilisis volutpat.
+                Inventory stays fresh and up-to date allowing for smooth-UX.
               </span>
             </div>
           </div>
@@ -66,13 +65,13 @@ function PowerfulFeature() {
         >
           <div className="flex flex-col space-y-2">
             <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
-              That’s our best great benefit
+              Content Platforms and E-commerce Have Never Been This In-Sync!
             </span>
-            <span className="text-sm text-paragraph">
+            {/* <span className="text-sm text-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud.
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

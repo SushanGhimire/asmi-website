@@ -20,9 +20,9 @@ function TitleDesCard({ head, title, des }) {
         data-aos-duration="1000"
         data-aos-delay="400"
       >
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-black font-manrope text-darkGray sm:w-96 leading-snug text-center md:text-left">
+        <div className="text-3xl sm:text-4xl md:text-5xl font-black font-manrope text-darkGray sm:w-100 leading-loose text-center md:text-left">
           {title}
-        </h1>
+        </div>
       </div>
       <p
         className="text-darkGray text-sm text-center md:text-left md:w-96"

@@ -15,7 +15,7 @@ function Frontpage() {
             data-aos="fade-up"
             data-aos-duration="800"
           >
-            THAT’S OUR APPLICATION
+            CONTENT MONETIZATION FROM DAY 1
           </header>
           <div
             className="flex justify-center md:justify-start"
@@ -23,8 +23,10 @@ function Frontpage() {
             data-aos-duration="800"
             data-aos-delay="400"
           >
-            <h1 className="text-4xl md:text-5xl font-black font-manrope text-darkGray sm:w-80 leading-snug text-center md:text-left">
-              Make It Easy With Our App
+            <h1 className="text-4xl md:text-5xl font-black font-manrope text-darkGray  leading-snug text-center md:text-left">
+              One View. One Click.
+              <br />
+              Simple Purchase
             </h1>
           </div>
           <p
@@ -33,8 +35,8 @@ function Frontpage() {
             data-aos-duration="800"
             data-aos-delay="600"
           >
-            Lorem ipsum dolor sit amet consectetur adipiscin eli a sit facilisis
-            volutpat interdum non a magna tempus amet.
+            ASMI New In-Video Commerce API brings the new age results to today's
+            biggest content platforms.
           </p>
           <div
             className="flex justify-center md:justify-start"
@@ -43,7 +45,7 @@ function Frontpage() {
             data-aos-delay="800"
           >
             <button className="px-6 py-2 bg-darkGray text-white rounded">
-              Button
+              Easy Free Demo
             </button>
           </div>
         </div>
