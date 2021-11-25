@@ -20,7 +20,12 @@ function TitleDesCard({ head, title, des }) {
         data-aos-duration="1000"
         data-aos-delay="400"
       >
-        <div className="text-3xl sm:text-4xl md:text-5xl font-black font-manrope text-darkGray sm:w-100 leading-loose text-center md:text-left">
+        <div
+          className="text-3xl sm:text-4xl md:text-5xl font-black font-manrope text-darkGray sm:w-100 leading-loose text-center md:text-left"
+          style={{
+            lineHeight: "3.5rem",
+          }}
+        >
           {title}
         </div>
       </div>

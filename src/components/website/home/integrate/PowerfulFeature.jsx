@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import powerful from "../../../../assets/images/powerful.png";
+import fast from "../../../../assets/images/fast.svg";
+import ai from "../../../../assets/images/ai.svg";
 import AOS from "aos";
 function PowerfulFeature() {
   useEffect(() => {
@@ -21,12 +24,22 @@ function PowerfulFeature() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="gradient px-10 py-24 rounded-xl">
-            <div className="text-white sm:w-64 space-y-3">
-              <div className="text-2xl font-black tracking-wide text-center sm:text-left">
+          <div className="gradient px-10 py-10 rounded-xl">
+            <div className="text-white sm:w-64 ">
+              <span className="">
+                <img
+                  src={powerful}
+                  className="w-16 rounded-lg p-3"
+                  alt=""
+                  style={{
+                    backgroundColor: "#96B6FA",
+                  }}
+                />
+              </span>
+              <div className="text-2xl font-black tracking-wide text-center sm:text-left mt-5">
                 ASMI Product Recommendation API
               </div>
-              <p className="text-sm text-center sm:text-left">
+              <p className="text-sm text-center sm:text-left mt-2">
                 Connecting 10M+ of products across e-commerce hubs to the
                 leading content platforms.
               </p>
@@ -39,6 +52,16 @@ function PowerfulFeature() {
             data-aos-delay="500"
           >
             <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
+              <span className="rounded-lg block">
+                <img
+                  src={fast}
+                  className="w-16 rounded-lg p-2"
+                  style={{
+                    backgroundColor: "#F87B99",
+                  }}
+                  alt=""
+                />
+              </span>
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
                 Fastest Integration
               </span>
@@ -48,6 +71,16 @@ function PowerfulFeature() {
               </span>
             </div>
             <div className="flex flex-col space-y-2 bg-white rounded-md shadow-md p-5">
+              <span className="rounded-lg block">
+                <img
+                  src={ai}
+                  className="w-16 rounded-lg p-2"
+                  style={{
+                    backgroundColor: "#7E92FB",
+                  }}
+                  alt=""
+                />
+              </span>
               <span className="text-2xl font-black tracking-wide font-manrope text-darkGray">
                 The Best AI Tools
               </span>
