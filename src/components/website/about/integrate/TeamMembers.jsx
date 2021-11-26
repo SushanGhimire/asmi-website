@@ -3,32 +3,32 @@ import AOS from "aos";
 function TeamMembers() {
   let teams = [
     {
-      name: "Srijan Pokhrel",
+      name: "Riaan Gentry",
       img: "https://images.unsplash.com/photo-1594759845217-e9c99af2b6a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=702&q=80",
       position: "Backend Developer",
     },
     {
-      name: "Jabir Khan",
+      name: "Masuma Thorpe",
       img: "https://images.unsplash.com/photo-1637476894790-38ae46124a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       position: "CEO",
     },
     {
-      name: "Raghib Islam",
+      name: "Aiysha Vu",
       img: "https://images.unsplash.com/photo-1637479544091-6cd628f71674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       position: "CTO",
     },
     {
-      name: "Sushan Ghimire",
+      name: "Sarah-Jane Colon",
       img: "https://images.unsplash.com/photo-1626044843054-6b7abf3a3534?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
       position: "Frontend Developer",
     },
     {
-      name: "Aabiskar Joshi",
+      name: "Ronnie Farrington",
       img: "https://images.unsplash.com/photo-1632958983989-49773325c326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
       position: "Frontend Developer",
     },
     {
-      name: "Ashish Shrestha",
+      name: "Riley-James Allen",
       img: "https://images.unsplash.com/photo-1610419923009-f0a50c304f10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
       position: "Fullstack Developer",
     },
