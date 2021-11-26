@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import frontpage from "../../../../assets/images/frontpage.png";
-import bgBlur from "../../../../assets/images/bgBlur.png";
+// import frontpage from "../../../../assets/images/frontpage.png";
+// import bgBlur from "../../../../assets/images/bgBlur.png";
+import video from "../../../../assets/video/short.mp4";
 import { Link } from "react-router-dom";
 function Frontpage() {
   useEffect(() => {
@@ -54,17 +55,25 @@ function Frontpage() {
           </div>
         </div>
         <div
-          className="flex-1 relative mt-16 md:mt-0"
+          className="flex-1 relative mt-16 md:mt-0 bg-green-400"
           data-aos="fade-left"
           data-aos-duration="1500"
           data-aos-delay="500"
         >
           {/* image  */}
-          <img src={bgBlur} alt="" />
+          {/* <img src={bgBlur} alt="" />
           <img
             src={frontpage}
             className="absolute top-5 sm:top-20 md:-top-10 right-5 sm:right-32  md:right-10 w-44 sm:w-64 lg:w-80"
             alt=""
+          /> */}
+          <video
+            src={video}
+            className=""
+            controls="controls"
+            autoPlay
+            loop
+            muted
           />
         </div>
       </div>
