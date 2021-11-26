@@ -1,4 +1,5 @@
 import PageHeader from "../../common/PageHeader";
+import TeamMembers from "./integrate/TeamMembers";
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
             problems, but I give this kind of time to fall down, so that some
             great pain and pain."
       />
+      <TeamMembers />
     </div>
   );
 }
