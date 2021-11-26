@@ -14,10 +14,6 @@ let routes = [
     name: "Features",
     url: "/features",
   },
-  {
-    name: "Contact",
-    url: "/contact",
-  },
 ];
 function Navbar() {
   const [activeRoute, setActiveRoute] = useState("");
@@ -52,6 +48,7 @@ function Navbar() {
     } else {
       setActiveRoute(nav);
     }
+    // console.log(nav);
   }, []);
   useEffect(() => {
     window.addEventListener("resize", handleWidth);
@@ -62,9 +59,15 @@ function Navbar() {
   return (
     <div className="w-full bg-white sticky  top-0 z-50 ">
       <div className="max-width flex py-6 md:py-0 justify-between  items-center">
-        <div>
+        <Link
+          to="/"
+          onClick={() => {
+            scrollToTop();
+            setActiveRoute("/");
+          }}
+        >
           <img src={logo} className="w-36" alt="" />
-        </div>
+        </Link>
         {width < 768 && (
           <div>
             <svg
@@ -108,8 +111,15 @@ function Navbar() {
             </ul>
             {/* app  */}
             <div className="flex">
-              <button className="bg-skyBlue text-white px-6 py-2 rounded">
-                Get the app
+              <button
+                className="bg-skyBlue text-white px-6 py-2 rounded"
+                onClick={() => {
+                  toggleMobileSidebar();
+                  scrollToTop();
+                  setActiveRoute("");
+                }}
+              >
+                Contact Us
               </button>
             </div>
           </div>
@@ -127,9 +137,15 @@ function Navbar() {
               ref={mobileSidebar}
             >
               <div className="w-72 flex flex-col px-8 ">
-                <div>
+                <Link
+                  to="/"
+                  onClick={() => {
+                    scrollToTop();
+                    setActiveRoute("/");
+                  }}
+                >
                   <img src={logo} className="w-36 mx-auto py-6" alt="" />
-                </div>
+                </Link>
 
                 <div className="flex flex-col space-y-2 items-center">
                   {routes.map((list, index) => {
@@ -153,6 +169,18 @@ function Navbar() {
                       </Link>
                     );
                   })}
+                </div>
+                <div className="flex justify-center mt-3">
+                  <button
+                    className="bg-skyBlue text-white px-6 py-2 rounded"
+                    onClick={() => {
+                      toggleMobileSidebar();
+                      scrollToTop();
+                      setActiveRoute("");
+                    }}
+                  >
+                    Contact Us
+                  </button>
                 </div>
               </div>
             </div>
