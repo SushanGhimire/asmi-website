@@ -55,7 +55,7 @@ function TeamMembers() {
                 <img
                   src={img}
                   className="w-full h-full object-cover object-top"
-                  alt=""
+                  alt={name}
                 />
               </div>
               <div className="mt-3 text-lg font-manrope text-darkGray font-medium">

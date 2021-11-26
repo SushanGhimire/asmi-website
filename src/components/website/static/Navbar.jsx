@@ -111,16 +111,16 @@ function Navbar() {
             </ul>
             {/* app  */}
             <div className="flex">
-              <button
+              <Link
+                to="/contact-us"
                 className="bg-skyBlue text-white px-6 py-2 rounded"
                 onClick={() => {
-                  toggleMobileSidebar();
                   scrollToTop();
                   setActiveRoute("");
                 }}
               >
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         )}
@@ -171,7 +171,7 @@ function Navbar() {
                   })}
                 </div>
                 <div className="flex justify-center mt-3">
-                  <button
+                  <Link to="/contact-us"
                     className="bg-skyBlue text-white px-6 py-2 rounded"
                     onClick={() => {
                       toggleMobileSidebar();
@@ -180,7 +180,7 @@ function Navbar() {
                     }}
                   >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

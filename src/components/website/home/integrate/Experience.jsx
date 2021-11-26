@@ -1,30 +1,34 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import good from "../../../../assets/images/good.png";
-import tune from "../../../../assets/images/tune.svg";
-import privacy from "../../../../assets/images/privacy.svg";
-import really from "../../../../assets/images/really.svg";
-import tech from "../../../../assets/images/tech.svg";
+import bell from "../../../../assets/images/bell.svg";
+import peerprivacy from "../../../../assets/images/peer-privacy.svg";
+import fast from "../../../../assets/images/fast.svg";
+import technology from "../../../../assets/images/technology.svg";
 let cards = [
   {
     title: "Always Tuned",
     des: "Never miss out on the opportunity to sell today’s hottest e-commerce.",
-    logo: tune,
+    logo: bell,
+    color: "#8FA7F8",
   },
   {
     title: "Privacy top-tier",
     des: "Secure cloud ecosystem to protect your user’s data.",
-    logo: privacy,
+    logo: peerprivacy,
+    color: "#95E4E9",
   },
   {
     title: "Really, really Fast",
     des: "Implement a few lines of a code and start running today.",
-    logo: really,
+    logo: fast,
+    color: "#BA9FFD",
   },
   {
     title: "Advanced Technology",
     des: "No heavy lift from your AI division, we solved the problem.",
-    logo: tech,
+    logo: technology,
+    color: "#FDBFE9",
   },
 ];
 function Experience() {
@@ -69,7 +73,7 @@ function Experience() {
           <div className="flex-1">
             <ul className="space-y-1">
               {cards.map((data, index) => {
-                const { title, des, logo } = data;
+                const { title, des, logo, color } = data;
                 return (
                   <li
                     key={index}
@@ -78,8 +82,13 @@ function Experience() {
                     }  p-5 flex items-center space-x-4 text-paragraph cursor-pointer animation`}
                     onClick={() => setSelected(title)}
                   >
-                    <span>
-                      <img src={logo} className="w-full" alt="" />
+                    <span
+                      style={{
+                        backgroundColor: color,
+                      }}
+                      className="p-3 rounded-lg"
+                    >
+                      <img src={logo} className="w-10" alt="" />
                     </span>
                     <div className="flex flex-col space-y-1">
                       <span className="font-black font-manrope text-darkGray tracking-wider">

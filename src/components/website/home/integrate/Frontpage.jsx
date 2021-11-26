@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import frontpage from "../../../../assets/images/frontpage.png";
 import bgBlur from "../../../../assets/images/bgBlur.png";
+import { Link } from "react-router-dom";
 function Frontpage() {
   useEffect(() => {
     AOS.init();
@@ -44,9 +45,12 @@ function Frontpage() {
             data-aos-duration="800"
             data-aos-delay="800"
           >
-            <button className="px-6 py-2 bg-darkGray text-white rounded">
+            <Link
+              to="/contact-us"
+              className="px-6 py-2 bg-darkGray text-white rounded"
+            >
               Easy Free Demo
-            </button>
+            </Link>
           </div>
         </div>
         <div
