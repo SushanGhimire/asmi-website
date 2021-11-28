@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import TitleDesCard from "../../../common/TitleDesCard";
-import good from "../../../../assets/images/good.png";
+import shop from "../../../../assets/images/shop.png";
 
 function Hearing() {
   useEffect(() => {
@@ -16,7 +16,7 @@ function Hearing() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <img src={good} className="w-64 mx-auto" alt="" />
+          <img src={shop} className="w-100 mx-auto" alt="" />
         </div>
         <div>
           <TitleDesCard

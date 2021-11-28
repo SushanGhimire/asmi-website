@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
-import good from "../../../../assets/images/good.png";
+import experience from "../../../../assets/images/experience.png";
 import bell from "../../../../assets/images/bell.svg";
 import peerprivacy from "../../../../assets/images/peer-privacy.svg";
 import fast from "../../../../assets/images/fast.svg";
@@ -102,7 +102,7 @@ function Experience() {
             </ul>
           </div>
           <div className="flex-1 mt-5 md:mt-0">
-            <img src={good} className="w-64 mx-auto" alt="" />
+            <img src={experience} className="w-100 mx-auto" alt="" />
           </div>
         </div>
       </div>

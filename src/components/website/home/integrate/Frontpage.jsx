@@ -55,7 +55,7 @@ function Frontpage() {
           </div>
         </div>
         <div
-          className="flex-1 relative mt-16 md:mt-0 bg-green-400"
+          className="flex-1 relative mt-16 md:mt-0 "
           data-aos="fade-left"
           data-aos-duration="1500"
           data-aos-delay="500"
@@ -68,9 +68,9 @@ function Frontpage() {
             alt=""
           /> */}
           <video
-            src={video}
+            src="https://asmivideo.s3.us-east-2.amazonaws.com/ASMI+Hero+Teaser.mp4"
             className=""
-            controls="controls"
+            // controls="controls"
             autoPlay
             loop
             muted

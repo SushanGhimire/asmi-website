@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import powerful from "../../../../assets/images/powerful.png";
+import powerfulfeature from "../../../../assets/images/powerful-feature.png";
 import fast from "../../../../assets/images/fast.svg";
 import ai from "../../../../assets/images/ai.svg";
 import AOS from "aos";
@@ -24,12 +25,12 @@ function PowerfulFeature() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="gradient px-10 py-10 rounded-xl">
+          <div className="gradient px-10 py-10 rounded-xl sm:flex relative">
             <div className="text-white sm:w-64 ">
               <span className="">
                 <img
                   src={powerful}
-                  className="w-16 rounded-lg p-3"
+                  className="w-16 rounded-lg p-3 mx-auto sm:mx-0"
                   alt=""
                   style={{
                     backgroundColor: "#96B6FA",
@@ -43,6 +44,9 @@ function PowerfulFeature() {
                 Connecting 10M+ of products across e-commerce hubs to the
                 leading content platforms.
               </p>
+            </div>
+            <div className="flex-1 ">
+              <img src={powerfulfeature} className="w-64 mx-auto" alt="" />
             </div>
           </div>
           <div

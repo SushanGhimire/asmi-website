@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import TitleDesCard from "../../../common/TitleDesCard";
-import best from "../../../../assets/images/best.png";
+import best from "../../../../assets/images/best2.png";
 function MultipleProduct() {
   useEffect(() => {
     AOS.init();
@@ -20,7 +20,7 @@ function MultipleProduct() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <img src={best} className="w-72 mx-auto" alt="" />
+          <img src={best} className="w-100 mx-auto" alt="" />
         </div>
       </div>
     </div>
