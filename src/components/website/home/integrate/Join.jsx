@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import community from "../../../../assets/images/community.png";
+import linkedin from "../../../../assets/images/linkedin.svg";
 import AOS from "aos";
 function Join() {
   useEffect(() => {
@@ -30,9 +31,15 @@ function Join() {
             data-aos-duration="1000"
             data-aos-delay="600"
           >
-            <button className="px-6 py-2 bg-darkGray text-white rounded">
-              Button
-            </button>
+            <a
+              href="https://www.linkedin.com/company/asmicorp/"
+              target="_blank"
+              rel="noreferrer"
+              className=" px-6 py-2 bg-darkGray text-white rounded flex space-x-1 items-center"
+            >
+              <img src={linkedin} className="w-6" alt="" />
+              <span className="font-semibold mt-1.5">Connect With Us</span>
+            </a>
           </div>
         </div>
         <div className="flex-1">

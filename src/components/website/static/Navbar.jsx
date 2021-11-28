@@ -10,10 +10,10 @@ let routes = [
     name: "About",
     url: "/about",
   },
-  {
-    name: "Features",
-    url: "/features",
-  },
+  // {
+  //   name: "Features",
+  //   url: "/features",
+  // },
 ];
 function Navbar() {
   const [activeRoute, setActiveRoute] = useState("");
@@ -102,7 +102,13 @@ function Navbar() {
                         : "border-white"
                     }`}
                   >
-                    <Link to={url} onClick={() => setActiveRoute(url)}>
+                    <Link
+                      to={url}
+                      onClick={() => {
+                        setActiveRoute(url);
+                        scrollToTop();
+                      }}
+                    >
                       {name}
                     </Link>
                   </li>
@@ -171,7 +177,8 @@ function Navbar() {
                   })}
                 </div>
                 <div className="flex justify-center mt-3">
-                  <Link to="/contact-us"
+                  <Link
+                    to="/contact-us"
                     className="bg-skyBlue text-white px-6 py-2 rounded"
                     onClick={() => {
                       toggleMobileSidebar();

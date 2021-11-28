@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../../../assets/images/logo.png";
-import fb from "../../../assets/images/fb.svg";
-import insta from "../../../assets/images/insta.svg";
+// import fb from "../../../assets/images/fb.svg";
+// import insta from "../../../assets/images/insta.svg";
 import twitter from "../../../assets/images/twitter.svg";
+import linkedin from "../../../assets/images/linkedin.svg";
 let routes = [
   {
     name: "Home",
@@ -19,17 +20,21 @@ let routes = [
 ];
 function Footer() {
   const social = [
-    {
-      logo: fb,
-      link: "https://www.facebook.com",
-    },
-    {
-      logo: insta,
-      link: "https://www.instagram.com",
-    },
+    // {
+    //   logo: fb,
+    //   link: "https://www.facebook.com",
+    // },
+    // {
+    //   logo: insta,
+    //   link: "https://www.instagram.com",
+    // },
     {
       logo: twitter,
-      link: "https://www.twitter.com",
+      link: "https://twitter.com/asmicorp?lang=en",
+    },
+    {
+      logo: linkedin,
+      link: "https://www.linkedin.com/company/asmicorp/",
     },
   ];
   return (
@@ -42,8 +47,8 @@ function Footer() {
             <div>
               <img src={logo} className="w-32 mx-auto md:mx-0" alt="" />
             </div>
-            <p className="mt-3 font-manrope text-sm lg                  :text-base text-center md:text-left">
-              The pain itself is the main reason why the pain is important
+            <p className="mt-3 font-manrope text-sm lg:text-base text-center md:text-left">
+              AI to Transform Video.
             </p>
           </div>
           {/* routs  */}
@@ -94,7 +99,14 @@ function Footer() {
         </div>
         <div className="py-3 text-center md:text-left">
           <span>All Right Reserved &copy; {new Date().getFullYear()}</span>
-          <span className="text-skyBlue ml-3">ASMI Corp.</span>
+          <a
+            href="https://twitter.com/asmicorp?lang=en"
+            target="_blank"
+            rel="noreferrer"
+            className="text-skyBlue ml-3"
+          >
+            ASMI Corp.
+          </a>
         </div>
       </div>
     </div>
