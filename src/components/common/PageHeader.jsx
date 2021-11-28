@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-function PageHeader({ head, title, des }) {
+function PageHeader({ head, title, des , des_two,des_three }) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -37,6 +37,22 @@ function PageHeader({ head, title, des }) {
             data-aos-delay="400"
           >
             {des}
+          </p>
+          <p
+            className="text-darkGray md:text-lg text-center w-full max-w-2xl mx-auto"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            {des_two}
+          </p>
+          <p
+            className="text-darkGray md:text-lg text-center w-full max-w-2xl mx-auto"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            {des_three}
           </p>
         </div>
       </div>

@@ -5,8 +5,10 @@ function About() {
   return (
     <div>
       <PageHeader
-        title="That's Us. How about that."
-        // des="AI to Transform Video."
+        title="We are a team of passionate builders."
+        des="We are avid fans of our customers."
+        des_two="We create what will make a better future."
+        des_three="We are ASMI"
       />
       <TeamMembers />
     </div>

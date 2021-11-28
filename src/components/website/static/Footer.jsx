@@ -54,9 +54,6 @@ function Footer() {
           {/* routs  */}
           <div className="flex justify-center">
             <div>
-              <div className="text-xl font-manrope text-paragraph font-medium">
-                MENU
-              </div>
               <ul className="space-y-2 mt-2 text-lg ">
                 {routes.map((data, index) => {
                   const { name, url } = data;
@@ -75,9 +72,7 @@ function Footer() {
           {/* social  */}
           <div className="flex justify-center">
             <div>
-              <div className="text-xl font-manrope text-paragraph font-medium text-center mb-3">
-                SOCIAL
-              </div>
+              
               <div className="flex items-center space-x-2">
                 {social.map((data, index) => {
                   const { logo, link } = data;
