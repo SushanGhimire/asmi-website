@@ -34,49 +34,49 @@ function TeamMembers() {
     {
       name: "Sagar Adhikari",
       img: sagar,
-      position: "Engineer",
+      position: "Engineer Manager/ DevOps",
     },
     {
       name: "Sanjib Raj Acharya",
       img: sanjib,
-      position: "Engineer",
+      position: "Full Stack/ Backend Engineer",
     },
     {
       name: "Ashish Shrestha",
       img: ashish,
-      position: "Engineer",
+      position: "Full Stack/ Frontend",
     },
     {
       name: "Niten Lama",
       img: niten,
-      position: "Engineer",
+      position: "AI Engineer",
     },
   ];
   let advisors = [
     {
       name: "Ruby Lu",
       img: ruby,
-      position: "Advisor -Global Partnerships[Asia]",
+      position: ["Advisor", " Global Partnerships[Asia]"],
     },
     {
       name: "Ramzi Ramsey",
       img: ramzi,
-      position: "Advisor -Go-To-Market",
+      position: ["Advisor", " Go-To-Market"],
     },
     {
       name: "Mark Barnard",
       img: mark,
-      position: "Advisor -Agency Partnership[US & Asia]",
+      position: ["Advisor", "Agency Partnership[US & Asia]"],
     },
     {
       name: "Rob Garrett",
       img: rob,
-      position: "Advisor -Core Business Growth",
+      position: ["Advisor", "Core Business Growth"],
     },
     {
       name: "Ravi Thomas",
       img: ravi,
-      position: "Advisor -Engineering & Core Business",
+      position: ["Advisor", "Engineering & Core Business"],
     },
   ];
   useEffect(() => {
@@ -143,8 +143,6 @@ function TeamMembers() {
         })}
       </div>
 
-
-    
       <div
         className="text-2xl sm:text-3xl md:text-4xl text-darkGray font-black mb-5 tracking-wide mt-8"
         data-aos="fade-up"
@@ -174,7 +172,11 @@ function TeamMembers() {
               <div className="mt-3 text-lg font-manrope text-darkGray font-medium">
                 {name}
               </div>
-              <div className="text-sm text-paragraph">{position}</div>
+              <div className="text-sm text-paragraph flex flex-col">
+                {position.map((data, index) => {
+                  return <span key={index}>{data}</span>;
+                })}
+              </div>
             </div>
           );
         })}
