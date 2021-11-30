@@ -3,7 +3,7 @@ import AOS from "aos";
 import sagar from "../../../../assets/images/teams/sagar.jpg";
 import niten from "../../../../assets/images/teams/niten.jpg";
 import sanjib from "../../../../assets/images/teams/sanjib.jpg";
-import ashish from "../../../../assets/images/teams/ashish.jpg";
+import ashish from "../../../../assets/images/teams/asis.jpg";
 import sajjan from "../../../../assets/images/teams/sajjan.jpg";
 import sam from "../../../../assets/images/teams/sam.jpg";
 import david from "../../../../assets/images/teams/david.jpeg";
@@ -143,8 +143,6 @@ function TeamMembers() {
         })}
       </div>
 
-
-    
       <div
         className="text-2xl sm:text-3xl md:text-4xl text-darkGray font-black mb-5 tracking-wide mt-8"
         data-aos="fade-up"

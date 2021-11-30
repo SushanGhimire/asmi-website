@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../../assets/images/logo.png";
 // import fb from "../../../assets/images/fb.svg";
 // import insta from "../../../assets/images/insta.svg";
@@ -12,10 +13,6 @@ let routes = [
   {
     name: "About",
     url: "/about",
-  },
-  {
-    name: "Features",
-    url: "/features",
   },
 ];
 function Footer() {
@@ -62,7 +59,7 @@ function Footer() {
                       key={index}
                       className="text-paragraph hover:text-darkGray animation"
                     >
-                      <a href={url}>{name}</a>
+                      <Link to={url}>{name}</Link>
                     </li>
                   );
                 })}
@@ -72,7 +69,6 @@ function Footer() {
           {/* social  */}
           <div className="flex justify-center">
             <div>
-              
               <div className="flex items-center space-x-2">
                 {social.map((data, index) => {
                   const { logo, link } = data;
