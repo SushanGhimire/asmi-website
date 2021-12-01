@@ -34,17 +34,17 @@ function TeamMembers() {
     {
       name: "Sagar Adhikari",
       img: sagar,
-      position: "Engineer Manager/ DevOps",
+      position: "Engineer Manager/ AI Engineer",
     },
     {
       name: "Sanjib Raj Acharya",
       img: sanjib,
-      position: "Full Stack/ Backend Engineer",
+      position: "AI Engineer",
     },
     {
       name: "Ashish Shrestha",
       img: ashish,
-      position: "Full Stack/ Frontend",
+      position: "AI Engineer",
     },
     {
       name: "Niten Lama",
@@ -124,7 +124,7 @@ function TeamMembers() {
         data-aos-delay="600"
       >
         {teams.map((data, index) => {
-          const { name, position, img } = data;
+          const { name, position, img, des } = data;
           return (
             <div key={index} className="">
               <div className="w-full h-72">
