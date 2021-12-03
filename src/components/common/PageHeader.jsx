@@ -31,7 +31,7 @@ function PageHeader({ head, title, des , des_two,des_three }) {
             </div>
           </div>
           <p
-            className="text-darkGray md:text-lg text-center w-full max-w-2xl mx-auto"
+            className="text-paragraph md:text-lg text-center w-full max-w-2xl mx-auto"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
@@ -39,7 +39,7 @@ function PageHeader({ head, title, des , des_two,des_three }) {
             {des}
           </p>
           <p
-            className="text-darkGray md:text-lg text-center w-full max-w-2xl mx-auto"
+            className="text-paragraph md:text-lg text-center w-full max-w-2xl mx-auto"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
@@ -47,7 +47,7 @@ function PageHeader({ head, title, des , des_two,des_three }) {
             {des_two}
           </p>
           <p
-            className="text-darkGray md:text-lg text-center w-full max-w-2xl mx-auto"
+            className="text-paragraph md:text-lg text-center w-full max-w-2xl mx-auto"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
