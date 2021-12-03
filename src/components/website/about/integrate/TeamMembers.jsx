@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import ReactTooltip from "react-tooltip";
 import sagar from "../../../../assets/images/teams/sagar.jpg";
 import niten from "../../../../assets/images/teams/niten.jpg";
 import sanjib from "../../../../assets/images/teams/sanjib.jpg";
@@ -195,9 +194,9 @@ function TeamMembers() {
           const { name, position, img, description } = data;
           return (
             <div key={index} className="">
-              <div className="w-full h-72 relative team-section cursor-pointer">
-                <div className="absolute bottom-0 animation team-description z-20 overflow-hidden">
-                  {description}
+              <div className="w-full h-72 2xl:h-96 relative team-section cursor-pointer">
+                <div className="absolute bottom-0 animation text-sm text-justify team-description z-20 overflow-hidden">
+                  <span className="px-2">{description}</span>
                 </div>
                 <img
                   src={img}
