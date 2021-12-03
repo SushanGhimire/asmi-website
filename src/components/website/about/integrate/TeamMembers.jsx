@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import ReactTooltip from "react-tooltip";
 import sagar from "../../../../assets/images/teams/sagar.jpg";
 import niten from "../../../../assets/images/teams/niten.jpg";
 import sanjib from "../../../../assets/images/teams/sanjib.jpg";
@@ -12,7 +13,11 @@ import ramzi from "../../../../assets/images/teams/ramzi.jpg";
 import mark from "../../../../assets/images/teams/mark.jpg";
 import rob from "../../../../assets/images/teams/rob.jpg";
 import ravi from "../../../../assets/images/teams/ravi.jpg";
-
+import san from "../../../../assets/images/teams/san.jpg";
+import roshan from "../../../../assets/images/teams/roshan.jpg";
+import pd from "../../../../assets/images/teams/pd.jpg";
+import simon from "../../../../assets/images/teams/simon.png";
+import gaurav from "../../../../assets/images/teams/gaurab.jpg";
 
 function TeamMembers() {
   let founders = [
@@ -37,74 +42,82 @@ function TeamMembers() {
       name: "Sagar Adhikari",
       img: sagar,
       position: "Engineer Manager/AI Engineer",
-      description: "Hi, this is Sagar. I plan, coordinate and oversee the technical and engineering activities in the organisation facillitating the product development and integration with clients. For fun, I love to read."
+      description:
+        "Hi, this is Sagar. I plan, coordinate and oversee the technical and engineering activities in the organisation facillitating the product development and integration with clients. For fun, I love to read.",
     },
     {
       name: "Sanjib Raj Acharya",
       img: sanjib,
       position: "Full Stack - Backend",
-      description: "Hi. My name is Sanjib Acharya. With 4 years of experience in software development, I am working as a Backend Engineer in ASMI while I assist the team with system architecture, data storage and management."
-
+      description:
+        "Hi. My name is Sanjib Acharya. With 4 years of experience in software development, I am working as a Backend Engineer in ASMI while I assist the team with system architecture, data storage and management.",
     },
     {
       name: "Niten Lama",
       img: niten,
       position: "AI Engineer",
-      description: "Hi, myself Niten and I've been working as an AI Engineer at ASMI since past 2 years. I have a combined knowledge of Computer Vision and Machine Learning techniques and I mainly enjoy solving vision related challenges, basically anything that requires processing and extracting essential information related to visual data. I love to sing and I'm also into drumming."
+      description:
+        "Hi, myself Niten and I've been working as an AI Engineer at ASMI since past 2 years. I have a combined knowledge of Computer Vision and Machine Learning techniques and I mainly enjoy solving vision related challenges, basically anything that requires processing and extracting essential information related to visual data. I love to sing and I'm also into drumming.",
     },
     {
-        name: "Gaurab Subedi",
-        img: niten,
-        position: "AI Engineer",
-        description: "Hello, I am Gaurab Subedi. I hold a BE degree in computer engineering from Tribhuvan University. In ASMI, I am working as an AI Engineer and Researcher having two years of experience. I have knowledge of machine learning and computer vision and carry out research work for the company. In my free time, I love to travel and listen to music. "
+      name: "Gaurab Subedi",
+      img: gaurav,
+      position: "AI Engineer",
+      description:
+        "Hello, I am Gaurab Subedi. I hold a BE degree in computer engineering from Tribhuvan University. In ASMI, I am working as an AI Engineer and Researcher having two years of experience. I have knowledge of machine learning and computer vision and carry out research work for the company. In my free time, I love to travel and listen to music. ",
     },
     {
       name: "Prakash Dahal",
-      img: niten,
+      img: pd,
       position: "AI Engineer",
-      description: "Hi, I am Prakash. I am working as a Data Scientist for more than a year. My primary task is to collect and handle large volume of data and to ensure the high quality of data by different methods of data validation and preprocessing techniques."
+      description:
+        "Hi, I am Prakash. I am working as a Data Scientist for more than a year. My primary task is to collect and handle large volume of data and to ensure the high quality of data by different methods of data validation and preprocessing techniques.",
     },
-    {
-      name: "Bigyan Subedi",
-      img: niten,
-      position: "AI Engineer",
-      description: "Hi, I am Bigyan. I am working as AI Engineer at ASMII for more than a year. I have been carrying out AI model development and research  work for the company"
-    },
+    // {
+    //   name: "Bigyan Subedi",
+    //   img: niten,
+    //   position: "AI Engineer",
+    //   description:
+    //     "Hi, I am Bigyan. I am working as AI Engineer at ASMII for more than a year. I have been carrying out AI model development and research  work for the company",
+    // },
     {
       name: "Roshan Shrestha",
-      img: niten,
+      img: roshan,
       position: "AI Engineer",
-      description: "Hey, I am Roshan Shrestha. I hold a BSC (Hons) degree in computer science. I am working as a Data Scientist at ASMII for more than a year now. I enjoy playing football with my buddies on weekends."
+      description:
+        "Hey, I am Roshan Shrestha. I hold a BSC (Hons) degree in computer science. I am working as a Data Scientist at ASMII for more than a year now. I enjoy playing football with my buddies on weekends.",
     },
     {
       name: "Simon Tamang",
-      img: niten,
+      img: simon,
       position: "UI/UX Designer",
-      description: "Hi, this is Simon, who works as a UI/UX designer in ASMI with more than three years of experience. In my free time, I like to listen to music."
+      description:
+        "Hi, this is Simon, who works as a UI/UX designer in ASMI with more than three years of experience. In my free time, I like to listen to music.",
     },
-    {
-      name: "Ram Krishna Lamichhane",
-      img: niten,
-      position: "Developer",
-      description: ""
-    },
+    // {
+    //   name: "Ram Krishna Lamichhane",
+    //   img: niten,
+    //   position: "Developer",
+    //   description: "",
+    // },
     {
       name: "Sangam Man Buddhacharya",
-      img: niten,
+      img: san,
       position: "AI Engineer",
-      description: "Hi! I'm 'San'. I have been working for a year as an AI Engineer, I am passionate and dedicated learner, willing to solve real-world problems using data, computer vision, and machine learning models. I design AI models and implement different computer vision algorithms to meet the requirements of the projects. Besides my career, my hobbies are flying drones, playing guitar, listening music, reading books, and so on. At last, I do the work I do because I love it."
+      description:
+        "Hi! I'm 'San'. I have been working for a year as an AI Engineer, I am passionate and dedicated learner, willing to solve real-world problems using data, computer vision, and machine learning models. I design AI models and implement different computer vision algorithms to meet the requirements of the projects. Besides my career, my hobbies are flying drones, playing guitar, listening music, reading books, and so on. At last, I do the work I do because I love it.",
     },
-    {
-      name: "Mohit Thapa",
-      img: niten,
-      position: "Quality Assurance",
-      description: ""
-    },
+    // {
+    //   name: "Mohit Thapa",
+    //   img: niten,
+    //   position: "Quality Assurance",
+    //   description: "",
+    // },
     {
       name: "Ashish Shrestha",
       img: ashish,
       position: "Full Stack - Frontend",
-      description: ""
+      description: "",
     },
   ];
   let advisors = [
@@ -157,7 +170,7 @@ function TeamMembers() {
           const { name, position, img } = data;
           return (
             <div key={index} className="">
-              <div className="w-full h-72">
+              <div className="w-full h-72 cursor-pointer">
                 <img
                   src={img}
                   className="w-full h-full object-cover object-top filter grayscale"
@@ -179,13 +192,16 @@ function TeamMembers() {
         data-aos-delay="600"
       >
         {teams.map((data, index) => {
-          const { name, position, img } = data;
+          const { name, position, img, description } = data;
           return (
             <div key={index} className="">
-              <div className="w-full h-72">
+              <div className="w-full h-72 relative team-section cursor-pointer">
+                <div className="absolute bottom-0 animation team-description z-20 overflow-hidden">
+                  {description}
+                </div>
                 <img
                   src={img}
-                  className="w-full h-full object-cover object-top filter grayscale"
+                  className="w-full h-full object-cover object-top filter grayscale z-10 team-img"
                   alt={name}
                 />
               </div>
