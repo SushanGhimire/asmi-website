@@ -172,7 +172,7 @@ function TeamMembers() {
               <div className="w-full h-72 cursor-pointer">
                 <img
                   src={img}
-                  className="w-full h-full object-contain filter grayscale"
+                  className="w-full h-full object-cover object-top filter grayscale"
                   alt={name}
                 />
               </div>
@@ -200,7 +200,7 @@ function TeamMembers() {
                 </div>
                 <img
                   src={img}
-                  className="w-full h-full object-contain filter grayscale z-10 team-img"
+                  className="w-full h-full object-cover object-top filter grayscale z-10 team-img"
                   alt={name}
                 />
               </div>
@@ -235,7 +235,7 @@ function TeamMembers() {
               <div className="w-full h-72">
                 <img
                   src={img}
-                  className="w-full h-full object-contain filter grayscale"
+                  className="w-full h-full object-cover object-top filter grayscale"
                   alt={name}
                 />
               </div>
