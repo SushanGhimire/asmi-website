@@ -17,6 +17,11 @@ import roshan from "../../../../assets/images/teams/roshan.jpg";
 import pd from "../../../../assets/images/teams/pd.jpg";
 import simon from "../../../../assets/images/teams/simon.png";
 import gaurav from "../../../../assets/images/teams/gaurab.jpg";
+import bigyan from "../../../../assets/images/teams/bigyan.jpg";
+import rk from "../../../../assets/images/teams/rk.jpg";
+import mohit from "../../../../assets/images/teams/mohit.jpg";
+import raghibi from "../../../../assets/images/teams/raghib.jpg";
+import jabir from "../../../../assets/images/teams/jabir.jpg";
 
 function TeamMembers() {
   let founders = [
@@ -24,16 +29,19 @@ function TeamMembers() {
       name: "Sam Thapaliya",
       img: sam,
       position: "Co-Founder",
+      title: "President",
     },
     {
       name: "David A. Thomas",
       img: david,
       position: "Co-Founder",
+      title: "Head of Operations",
     },
     {
       name: "Sajjan Thapaliya",
       img: sajjan,
       position: "Co-Founder",
+      title: "Head of Product",
     },
   ];
   let teams = [
@@ -72,13 +80,13 @@ function TeamMembers() {
       description:
         "Hi, I am Prakash. I am working as a Data Scientist for more than a year. My primary task is to collect and handle large volume of data and to ensure the high quality of data by different methods of data validation and preprocessing techniques.",
     },
-    // {
-    //   name: "Bigyan Subedi",
-    //   img: niten,
-    //   position: "AI Engineer",
-    //   description:
-    //     "Hi, I am Bigyan. I am working as AI Engineer at ASMII for more than a year. I have been carrying out AI model development and research  work for the company",
-    // },
+    {
+      name: "Bigyan Subedi",
+      img: bigyan,
+      position: "AI Engineer",
+      description:
+        "Hi, I am Bigyan. I am working as AI Engineer at ASMII for more than a year. I have been carrying out AI model development and research  work for the company",
+    },
     {
       name: "Roshan Shrestha",
       img: roshan,
@@ -93,12 +101,13 @@ function TeamMembers() {
       description:
         "Hi, this is Simon, who works as a UI/UX designer in ASMI with more than three years of experience. In my free time, I like to listen to music.",
     },
-    // {
-    //   name: "Ram Krishna Lamichhane",
-    //   img: niten,
-    //   position: "Developer",
-    //   description: "",
-    // },
+    {
+      name: "Ram Krishna Lamichhane",
+      img: rk,
+      position: "Developer",
+      description:
+        "Software engineer with more than 4 years of experience in building highly scalable system and AI pipelines.",
+    },
     {
       name: "Sangam Man Buddhacharya",
       img: san,
@@ -106,17 +115,32 @@ function TeamMembers() {
       description:
         "Hi! I'm 'San'. I have been working for a year as an AI Engineer, I am passionate and dedicated learner, willing to solve real-world problems using data, computer vision, and machine learning models. I design AI models and implement different computer vision algorithms to meet the requirements of the projects. Besides my career, my hobbies are flying drones, playing guitar, listening music, reading books, and so on. At last, I do the work I do because I love it.",
     },
-    // {
-    //   name: "Mohit Thapa",
-    //   img: niten,
-    //   position: "Quality Assurance",
-    //   description: "",
-    // },
+    {
+      name: "Mohit Thapa",
+      img: mohit,
+      position: "Quality Assurance",
+      description:
+        "Hello. Myself, Mohit. I inspect product usage from client's perpective and comply with the company's quality assurance standards. On weekends,I enjoy bike riding.",
+    },
     {
       name: "Ashish Shrestha",
       img: ashish,
       position: "Full Stack - Frontend",
-      description: "",
+      description:
+        "I am working as  Frontend && Backend Engineer in ASMI while I assist the team with system architecture, data storage and management.",
+    },
+    {
+      name: "Raghib Islam",
+      img: raghibi,
+      position: "Full Stack - Frontend / Backend",
+      description:"Full Stack engineer with more than two years of experience in frontend & backend technology. At ASMI I work in frontend/backend stuffs.",
+    },
+    {
+      name: "Jabir Hussain",
+      img: jabir,
+      position: "Security Researcher",
+      description:
+        "I inspect product security vulnerability , monitor and secure the product , lower malware treats and cyber attacks.",
     },
   ];
   let advisors = [
@@ -166,7 +190,7 @@ function TeamMembers() {
         data-aos-delay="500"
       >
         {founders.map((data, index) => {
-          const { name, position, img } = data;
+          const { name, position, img, title } = data;
           return (
             <div key={index} className="">
               <div className="w-full h-72 cursor-pointer">
@@ -180,6 +204,7 @@ function TeamMembers() {
                 {name}
               </div>
               <div className="text-sm text-paragraph">{position}</div>
+              <div className="text-sm text-paragraph">{title}</div>
             </div>
           );
         })}
