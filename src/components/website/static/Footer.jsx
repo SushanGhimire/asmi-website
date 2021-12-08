@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/asmi-logo.png";
 // import fb from "../../../assets/images/fb.svg";
 // import insta from "../../../assets/images/insta.svg";
 import twitter from "../../../assets/images/twitter.svg";
