@@ -68,7 +68,7 @@ function Frontpage() {
             alt=""
           /> */}
           <video
-            src="https://asmivideo.s3.us-east-2.amazonaws.com/ASMI+Hero+Teaser.mp4"
+            src="https://asmiwebsiteassests.s3.us-east-2.amazonaws.com/asmi.mp4"
             className=""
             // controls="controls"
             autoPlay
