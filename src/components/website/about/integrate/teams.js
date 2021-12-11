@@ -48,9 +48,9 @@ export const teams = [
   {
     name: "Sagar Adhikari",
     img: sagar,
-    position: "Engineer Manager/AI Engineer",
+    position: "Engineer Manager",
     description:
-      "Hi, this is Sagar. I plan, coordinate and oversee the technical and engineering activities in the organisation facillitating the product development and integration with clients. For fun, I love to read.",
+      "Hi, this is Sagar. I plan, coordinate and oversee the technical and engineering processes in the organisation facillitating the product development and integration with clients. For fun, I love to read.",
   },
   {
     name: "Sanjib Raj Acharya",
@@ -94,6 +94,13 @@ export const teams = [
     position: "UI/UX Designer",
     description:
       "Hi, this is Simon, who works as a UI/UX designer in ASMI with more than three years of experience. In my free time, I like to listen to music.",
+  },
+  {
+    name: "Bigyan Subedi",
+    img: bigyan,
+    position: "AI Engineer",
+    description:
+      "Hi, I am Bigyan.I am working as AI Engineer at ASMII for more than a year. I have been carrying out AI model development and research  work for the company",
   },
   {
     name: "Ram Krishna Lamichhane",
