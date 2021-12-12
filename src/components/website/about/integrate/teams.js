@@ -76,7 +76,7 @@ export const teams = [
   {
     name: "Prakash Dahal",
     img: pd,
-    position: "AI Engineer",
+    position: "Data Scientist",
     description:
       "Hi, I am Prakash. I am working as a Data Scientist for more than a year. My primary task is to collect and handle large volume of data and to ensure the high quality of data by different methods of data validation and preprocessing techniques.",
   },
