@@ -23,23 +23,23 @@ import jabir from "../../../../assets/images/teams/jabir.jpg";
 
 export const founders = [
   {
-    name: "Sam Thapaliya",
-    img: sam,
-    position: "Co-Founder",
-    description:
-      "Sam has founded multiple startups. At the age of 16, one of his earliest accomplishments was having understood the network effect for gamers. He went on to build a communications software company called GroupIn to create seamless interaction between pods of gamers... it was “Discord” before Discord. His most recent company before ASMI was Selcouth Technology, a B2B e-commerce company that used AI to understand the most efficient manners by which a business should transport freight. Sam enjoyed a successful exit with Selcouth Technology before working on his giant idea of how to change the way users interact with video content! Sam is an avid reader and enjoys any discussion pertaining to artificial general intelligence, the future of work, economics and existentialism.",
-  },
-  {
     name: "David A. Thomas",
     img: david,
-    position: "Co-Founder",
+    position: "CEO & Co-Founder",
     description:
       "Prior to serving as the COO of ASMI, David was part of the senior level staff at Engageclick, a predictive marketing communications platform that utilized consumer engagement data to segment and predict the best communication messages for consumers. David enables ASMI to run from a global scale handling customers, advisors, establishment of any foreign business entity, and ensures that ASMI is recognized as a leader in the AI and advertising technology ecosystems. Being a bit of a ‘swiss army knife’, David interfaces with every part of ASMI’s business and identity. Outside of his role at ASMI, David has a rescue dog named Jet (the company mascot) and enjoys a weekend or day trip to the beach or a snowy frontier for some snowboarding.",
   },
   {
+    name: "Sam Thapaliya",
+    img: sam,
+    position: "Chief Architect & Co-Founder",
+    description:
+      "Sam has founded multiple startups. At the age of 16, one of his earliest accomplishments was having understood the network effect for gamers. He went on to build a communications software company called GroupIn to create seamless interaction between pods of gamers... it was “Discord” before Discord. His most recent company before ASMI was Selcouth Technology, a B2B e-commerce company that used AI to understand the most efficient manners by which a business should transport freight. Sam enjoyed a successful exit with Selcouth Technology before working on his giant idea of how to change the way users interact with video content! Sam is an avid reader and enjoys any discussion pertaining to artificial general intelligence, the future of work, economics and existentialism.",
+  },
+  {
     name: "Sajjan Thapaliya",
     img: sajjan,
-    position: "Co-Founder",
+    position: "VP of Products & Co-Founder",
     description:
       "Sajjan has built software tools at tremendous scale and managed delivery timelines across team sizes of up to 200. Sajjan served as the CEO of Selcouth Technology alongside Sam, one of Nepal’s earliest and most successful B2B e-commerce platforms. Currently, he leads the engineering division of ASMI and oversees the day-to-day aspects of the company management. Sajjan implement standard operating procedures that provide world-class support and efficiency for ASMI’s customers.",
   },
