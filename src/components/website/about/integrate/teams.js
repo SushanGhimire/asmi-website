@@ -1,7 +1,6 @@
 import sagar from "../../../../assets/images/teams/sagar.jpg";
 import niten from "../../../../assets/images/teams/niten.jpg";
 import sanjib from "../../../../assets/images/teams/sanjib.jpg";
-import ashish from "../../../../assets/images/teams/asis.jpg";
 import sajjan from "../../../../assets/images/teams/sajjan.jpg";
 import sam from "../../../../assets/images/teams/sam.jpg";
 import david from "../../../../assets/images/teams/david.jpeg";
@@ -13,13 +12,10 @@ import ravi from "../../../../assets/images/teams/ravi.jpg";
 import san from "../../../../assets/images/teams/san.jpg";
 import roshan from "../../../../assets/images/teams/roshan.jpg";
 import pd from "../../../../assets/images/teams/pd.jpg";
-import simon from "../../../../assets/images/teams/simon.png";
 import gaurav from "../../../../assets/images/teams/gaurab.jpg";
 import bigyan from "../../../../assets/images/teams/bigyan.jpg";
 import rk from "../../../../assets/images/teams/rk.jpg";
 import mohit from "../../../../assets/images/teams/mohit.jpg";
-import raghibi from "../../../../assets/images/teams/raghib.jpg";
-import jabir from "../../../../assets/images/teams/jabir.jpg";
 
 export const founders = [
   {
@@ -89,13 +85,6 @@ export const teams = [
       "Hey, I am Roshan Shrestha. I hold a BSC (Hons) degree in computer science. I am working as a Data Scientist at ASMII for more than a year now. I enjoy playing football with my buddies on weekends.",
   },
   {
-    name: "Simon Tamang",
-    img: simon,
-    position: "UI/UX Designer",
-    description:
-      "Hi, this is Simon, who works as a UI/UX designer in ASMI with more than three years of experience. In my free time, I like to listen to music.",
-  },
-  {
     name: "Bigyan Subedi",
     img: bigyan,
     position: "AI Engineer",
@@ -122,27 +111,6 @@ export const teams = [
     position: "Quality Assurance",
     description:
       "Hello. Myself, Mohit. I inspect product usage from client's perpective and comply with the company's quality assurance standards. On weekends,I enjoy bike riding.",
-  },
-  {
-    name: "Ashish Shrestha",
-    img: ashish,
-    position: "Full Stack - Frontend",
-    description:
-      "I am working as  Frontend && Backend Engineer in ASMI while I assist the team with system architecture, data storage and management.",
-  },
-  {
-    name: "Raghib Islam",
-    img: raghibi,
-    position: "Full Stack - Frontend / Backend",
-    description:
-      "Full Stack engineer with more than two years of experience in frontend & backend technology. At ASMI I work in frontend/backend stuffs.",
-  },
-  {
-    name: "Jabir Hussain",
-    img: jabir,
-    position: "Security Researcher",
-    description:
-      "I inspect product security vulnerability , monitor and secure the product , lower malware treats and cyber attacks.",
   },
 ];
 export const advisors = [
